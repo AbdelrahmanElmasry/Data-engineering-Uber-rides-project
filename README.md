@@ -1,5 +1,5 @@
 # Data-engineering-taxi-rides-project
-The final project for taxi rides dataset in New York city 2015-2022
+The final project for taxi rides dataset in New York city 2019-2021
 ## Description 
 In this dataset there are taxi rides data in New York city. I tried to find out the distribution of average taxi type ( green/yellow ) used by the taxi passengers and then in the second step I wanted to figure out the diveristy of most pickup zones in the city. Below is the link for the dashboard report, it might stop working if my GCP free trial expires.
 
