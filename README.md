@@ -1,4 +1,4 @@
-# Data-engineering-Uber-rides-project
+# Data-engineering-taxi-rides-project
 The final project for taxi rides dataset in New York city 2015-2022
 
 
