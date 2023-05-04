@@ -1,5 +1,9 @@
 # Data-engineering-taxi-rides-project
 The final project for taxi rides dataset in New York city 2015-2022
+## Description 
+In this dataset there are taxi rides data in New York city. I tried to find out the distribution of average taxi type ( green/yellow ) used by the taxi passengers and then in the second step I wanted to figure out the diveristy of most pickup zones in the city. Below is the link for the dashboard report, it might stop working if my GCP free trial expires.
+
+<img width="1168" alt="image" src="https://user-images.githubusercontent.com/21027044/236313809-c7d5cb18-1a75-49b5-a8bb-0783b5374413.png">
 
 
 ### Technologies & Prerequisite 
@@ -42,4 +46,8 @@ The final project for taxi rides dataset in New York city 2015-2022
     - testing : `relationships` with `taxi_zone_lookup` on field `locationid`
     - column_name : `Payment_type`
     - testing : only `accepted_values` defined in the project config var `payment_type_values`
+
+### Visualization ( looker )
+**DEMO**
+- https://lookerstudio.google.com/u/0/reporting/6954ac54-0788-4f49-b02b-1e9cd9d86118/page/kBCPD
     
