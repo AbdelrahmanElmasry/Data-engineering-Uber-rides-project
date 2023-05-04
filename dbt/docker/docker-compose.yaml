@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dbt-bq-zoocamp:
+    build:
+      context: .
+      target: dbt-all
+    image: dbt/all
+    volumes:
+      - ../:/usr/app
+      - ~/.dbt/:/root/.dbt/
+      - ~/.gc/de-nyc-rides.json:/.google/credentials/google_credentials.json
+    network_mode: host
